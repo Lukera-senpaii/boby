@@ -1130,7 +1130,7 @@ if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
                      //_TESTES
                       case 'donate': case 'doar':
                     donate = `Incentive meu criador fazendo uma doação via pix:\n`
-                    donate2 = `b3884fdd-bd76-4fe0-8745-92aad4d2a7f3`
+                    donate2 = `b415fad3-16cb-4177-9496-a835df6a6aaf`
                 tiringa.sendMessage(from, donate, text, {quoted: mek})
                 tiringa.sendMessage(from, donate2, text)
                 break
