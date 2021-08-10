@@ -938,7 +938,7 @@ if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
                             ptt: true
                         })*/
                       if (res == "2") {
-                        reply('Esse baiano deve estar dormindo...')
+                        reply('Esse meu criador deve estar dormindo...')
                     } else if (res == "3") {
                         sn = ["1", "2"]
                         res = sn[Math.floor(Math.random() * sn.length)]
@@ -1624,8 +1624,8 @@ Link: ${i.swipeUpLink}\n\n𝗜𝗚 𝗦𝗧𝗢𝗥𝗬\n`
                     addFilter(from)
                     break
                  
-                 case 'baiano':
-             const baiano = `5516991766933@s.whatsapp.net`
+                 case 'mestre':
+             const mestre = `5516991766933@s.whatsapp.net`
                     const tame = {
                         text: `@${baiano.split("@")[0]} `,
                         contextInfo: {
@@ -5005,7 +5005,7 @@ você se registrou, digite ${prefix}menu para listar meus comandos`
                     const sn = ['sim', 'não']
                     gosto = body.slice(4)
                     addFilter(from)
-                    if (args.length < 1) return tiringa.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn O Lukera é um baiano preguiçoso?`, text, {
+                    if (args.length < 1) return tiringa.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn O Lukera é um mestre preguiçoso?`, text, {
                         quoted: mek
                     })
                     const jawab = sn[Math.floor(Math.random() * (sn.length))]
@@ -6507,7 +6507,7 @@ ${vitr}`
                             })
                            const baino = `5516991766933@s.whatsapp.net`
                           const tamme = {
-                        text: `cofoi baiano @${baino.split("@")[0]}??? 🤨`,
+                        text: `cofoi Mestre @${baino.split("@")[0]}??? 🤨`,
                         contextInfo: {
                             mentionedJid: [baino]
                         }
